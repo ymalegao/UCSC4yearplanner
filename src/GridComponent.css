@@ -1,0 +1,82 @@
+.schedule-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+/*section 1 */
+.section1 {
+  display: flex;
+}
+
+/*row titles*/
+.year-bar {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  justify-content: space-between;
+  height: 94.7%;
+}
+.year-label {
+  color: white;
+  font-family: "Josefin Sans";
+  font-size: 18px;
+  padding: 80% 0 80% 0;
+  background-color: rgb(27, 56, 110);
+  border: 2px solid black;
+}
+.year-label:first-child {
+  border-top-left-radius: 8px;
+  border-bottom: none;
+}
+.year-label:last-child {
+  border-bottom-left-radius: 8px;
+  border-top: none;
+}
+
+/*section 2*/
+.section2 {
+  width: 90%;
+  align-self: flex-end;
+}
+/* Column titles */
+.column-title-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.quarter-bar-item {
+  width: 25%;
+  border: 2px solid black;
+  background-color: rgb(27, 56, 110);
+  color: white;
+  font-family: "Josefin Sans";
+  font-size: 20px;
+  padding: 5px 0 5px 0;
+}
+.quarter-bar-item:first-child {
+  border-top-left-radius: 8px;
+}
+.quarter-bar-item:last-child {
+  border-top-right-radius: 8px;
+}
+
+/* GridComponent.css */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+}
+.grid-cell {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+
+  height: 120px;
+  background-color: white;
+}
+.grid-cell:last-child {
+  border-bottom-right-radius: 8px;
+}

@@ -1,0 +1,46 @@
+.class-wrapper {
+  position: relative;
+}
+.classes-list-section {
+  max-height: 618px; /* Set a maximum height for the container */
+  overflow-y: auto; /* Enable vertical scrollbar if content overflows */
+  margin: 0px;
+}
+.c-class {
+  margin: 10px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+}
+.c-class:hover {
+  box-shadow: 0 0 13px #32d6ff;
+  background-color: #bbdff7;
+}
+.popup-content {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+p {
+  color: white;
+}
+/* seems like wehen changing class in 
+classeslist, electiveslist also changes */
+
+.test {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.test p {
+  margin: 5px 5px 0 5px;
+}
+
+.gif {
+  height: 100px;
+  border: none;
+  align-self: center;
+}

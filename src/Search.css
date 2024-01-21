@@ -1,0 +1,37 @@
+/* Search.css */
+
+.search-bar {
+  display: flex;
+  margin: 10px auto 20px auto;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.inp {
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  font-size: 16px;
+  background-color: p;
+  width: 80%;
+}
+
+.search-bar button {
+  width: 20%;
+  margin: 0 0px 0 10px;
+  background-color: rgb(109, 106, 42);
+  color: white;
+  font-family: "Josefin Sans";
+  font-size: 20px;
+  text-align: center;
+
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  padding-top: 2px;
+}
+
+.search-bar button:hover {
+  transform: scale(110%);
+}

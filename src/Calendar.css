@@ -1,0 +1,58 @@
+/* calendar.css */
+
+.calendar {
+  margin-left: 2%;
+  margin-top: 1.5%;
+  margin-right: 2%;
+  display: flex;
+  flex-direction: row;
+}
+
+.container1 {
+  width: 70%;
+}
+
+.Search {
+  margin-right: 2%;
+}
+
+.container2 {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  /* margin-top: 1%; */
+}
+
+.classes-list,
+.ge-list {
+  width: 50%;
+  height: auto;
+  background-color: rgb(27, 56, 110);
+  border-radius: 8px;
+}
+.classes-list {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.ge-list {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.test {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.test p {
+  margin: 5px 5px 0 5px;
+}
+
+.gif {
+  margin-top: 20vh;
+  height: 100vh;
+  border: none;
+  align-self: center;
+}

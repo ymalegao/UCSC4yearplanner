@@ -1,0 +1,18 @@
+.ge-list-section {
+  max-height: 70vh; /* Set a maximum height for the container */
+  overflow-y: auto; /* Enable vertical scrollbar if content overflows */
+  margin-top: 0px;
+}
+
+.ge-class {
+  margin: 1vh;
+  background-color: white;
+  border-radius: 8px;
+  padding: 1vh;
+}
+.ge-class:hover {
+  box-shadow: 0 0 13px #32d6ff;
+  background-color: #bbdff7;
+}
+/* seems like wehen changing class in 
+classeslist, electiveslist also changes */
