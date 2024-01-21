@@ -1,10 +1,8 @@
 import React from "react";
 import "./Bar.css";
-import { ExportButton, exportToCSV, getGridData } from "./GridComponent";
+import { ExportButton } from "./GridComponent";
 
 const Bar = () => {
-  const yourGridData = getGridData();
-
   return (
     <div className="bar">
       <p className="top-text">UCSC Major Classes Planner</p>
