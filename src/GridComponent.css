@@ -80,3 +80,53 @@
 .grid-cell:last-child {
   border-bottom-right-radius: 8px;
 }
+
+.export-btn {
+  font-family: "Josefin Sans";
+  /*
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  */
+  border: none;
+  /*
+  border-top: none;
+  border-bottom: none;
+  border-left: none;*/
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 24vh;
+  background-color: transparent;
+  transition: all 0.5s;
+}
+
+.export-btn:hover {
+  background-color: #28a9ff46;
+}
+
+.export-btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.export-btn span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.export-btn:hover span {
+  padding-right: 25px;
+}
+
+.export-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}

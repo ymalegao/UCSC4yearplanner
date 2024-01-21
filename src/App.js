@@ -1,6 +1,6 @@
 import "./App.css";
-import Bar from "./Bar.js"; 
-import Calendar from "./Calendar.js"; 
+import Bar from "./Bar.js"; // Assuming bar.js is in the same directory
+import Calendar from "./Calendar.js"; // Assuming calendar.js is in the same directory
 import { MajorProvider } from "./MajorContext";
 
 function App() {

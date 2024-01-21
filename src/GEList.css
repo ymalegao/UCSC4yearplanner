@@ -1,5 +1,5 @@
 .ge-list-section {
-  max-height: 70vh; /* Set a maximum height for the container */
+  max-height: 72vh; /* Set a maximum height for the container */
   overflow-y: auto; /* Enable vertical scrollbar if content overflows */
   margin-top: 0px;
 }

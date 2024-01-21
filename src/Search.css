@@ -10,8 +10,9 @@
 .inp {
   border: none;
   border-radius: 6px;
+  font-family: "Josefin Sans";
   outline: none;
-  font-size: 16px;
+  font-size: 20px;
   background-color: p;
   width: 80%;
 }
@@ -19,8 +20,8 @@
 .search-bar button {
   width: 20%;
   margin: 0 0px 0 10px;
-  background-color: rgb(109, 106, 42);
-  color: white;
+  background-color: rgb(255, 251, 183);
+  color: black;
   font-family: "Josefin Sans";
   font-size: 20px;
   text-align: center;

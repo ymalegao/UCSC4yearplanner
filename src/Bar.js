@@ -1,13 +1,16 @@
 import React from "react";
 import "./Bar.css";
-import { ExportButton } from "./GridComponent";
+import { ExportButton, exportToCSV, getGridData } from "./GridComponent";
 
 const Bar = () => {
+  const yourGridData = getGridData();
+
   return (
     <div className="bar">
       <p className="top-text">UCSC Major Classes Planner</p>
-
-      <ExportButton />
+      <div className="btn-container">
+        <ExportButton />
+      </div>
     </div>
   );
 };
