@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/UCSC4yearplanner/static/css/main.10a2df2d.css",
-    "main.js": "/UCSC4yearplanner/static/js/main.7efabaef.js",
+    "main.css": "/UCSC4yearplanner/static/css/main.82abe39a.css",
+    "main.js": "/UCSC4yearplanner/static/js/main.a2c0bccf.js",
     "index.html": "/UCSC4yearplanner/index.html",
-    "main.10a2df2d.css.map": "/UCSC4yearplanner/static/css/main.10a2df2d.css.map",
-    "main.7efabaef.js.map": "/UCSC4yearplanner/static/js/main.7efabaef.js.map"
+    "main.82abe39a.css.map": "/UCSC4yearplanner/static/css/main.82abe39a.css.map",
+    "main.a2c0bccf.js.map": "/UCSC4yearplanner/static/js/main.a2c0bccf.js.map"
   },
   "entrypoints": [
-    "static/css/main.10a2df2d.css",
-    "static/js/main.7efabaef.js"
+    "static/css/main.82abe39a.css",
+    "static/js/main.a2c0bccf.js"
   ]
 }
